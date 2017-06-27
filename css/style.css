@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Frijole');
+
+body {
+	margin: 0;
+}
+body .no-padding {
+	padding: 0;
+}
+body header {
+	background: url('https://images.pexels.com/photos/269633/pexels-photo-269633.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb') center/cover;
+	height: 15vh;
+	text-align: center;
+	border-bottom: 2px solid #000;
+}
+body header h1 {
+	font-size: 45px;
+	color: #FCF062;
+	font-family: 'Frijole', cursive;
+	margin: 0;
+	line-height: 15vh;
+	text-shadow: 0 0 10px #000;
+	background: linear-gradient(transparent, rgba(89, 61, 8,0.5), transparent);
+}
+body .cont-style {
+	height: 85vh;
+	overflow-x: hidden;
+}
+body .left {
+	background: url('https://images.pexels.com/photos/408503/pexels-photo-408503.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb') left/cover;
+	height: 85vh;
+}
+body .right {
+	background: url('https://images.pexels.com/photos/408503/pexels-photo-408503.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb') right/cover;
+	height: 85vh;
+}
+body img {
+	position: absolute;
+	z-index: 1;
+	left: 360px;
+	top: 380px;
+}
+body .cont-style .page {
+	padding: 50px 20px;
+	height: 85vh;
+	box-shadow: 5px 5px 15px #000;
+	text-align: center;
+	background: url('https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb') center/cover;
+	overflow-y: scroll;
+}
+body .cont-style .page button {
+	display: block;
+	margin: 20px auto;
+	background-color: rgba(211, 84, 0,1.0);
+	border: 0;
+}
+body .cont-style .page input {
+	width: 400px;
+}
+body ul li {
+	list-style: none;
+	padding-left: 100px;
+	color: #fff;
+}
+body .page h2, h3, li {
+	text-align: left;
+	text-shadow: 0 0 10px #000;
+}
+body .page h3 {
+	padding-left: 50px;
+	color: #fff;
+}
+body .page h2 {
+	padding: 50px 0 0 50px;
+	color: #fff;
+}
+body .page h4 {
+	color: #fff;
+	font-size: 25px;
+	text-shadow: 0 0 10px #000;
+	margin-bottom: 20px;
+}

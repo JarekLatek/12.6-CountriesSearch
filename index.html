@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Countries search engine</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<body>
+		<header class="container-fluid no-padding">
+			<h1>Country finder</h1>
+		</header>
+		<div>
+			<img src="img/lupa.png" alt="lupa">
+		</div>	
+		<div class="container-fluid no-padding cont-style">
+			<div class="row">
+				<div class="col-lg-6 left"></div>
+				<div class="col-lg-4 page">
+					<h4>Witch country would you like to find?</h4>
+					<input id="country-name" type="text" placeholder="Type here" />
+					<button id="search" class="btn btn-warning btn-lg">Search for a country</button>
+					<h2>List of countries</h2>
+					<ul id="countries">
+						<li>No data</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 right"></div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
